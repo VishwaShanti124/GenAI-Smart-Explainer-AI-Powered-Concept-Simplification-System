@@ -27,7 +27,7 @@ export default function TopicInput(props: TopicInputProps) {
         placeholder="Enter a topic"
         value={input}
         onChange={(e: ChangeEvent<HTMLInputElement>) => setInput(e.target.value)}
-        className="w-full p-3 border border-gray-300 rounded-md mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        className="w-full p-3 border border-gray-300 rounded-md text-black mb-4 focus:outline-none focus:ring-2 focus:ring-blue-400"
       />
       <button
         type="button"

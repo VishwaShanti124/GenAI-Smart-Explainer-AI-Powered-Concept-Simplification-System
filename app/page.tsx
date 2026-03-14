@@ -47,7 +47,7 @@ export default function HomePage() {
 
   return (
     <div className="min-h-screen bg-gray-100 p-4">
-      <h1 className="text-3xl text-center font-bold mt-8">Student AI Explainer</h1>
+      <h1 className="text-3xl text-center font-bold mt-8 text-black">Student AI Explainer</h1>
 
       <TopicInput onExplain={handleExplain} />
 
